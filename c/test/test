@@ -1,5 +1,0 @@
-gcc -c test.c
-ar r libtest.a test.o
-ar rs libtest.a
-mv libtest.a ./lib
-gcc -o file file.c -I ./lib -L ./lib -ltest
