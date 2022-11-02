@@ -17,8 +17,3 @@ case "$1" in
             *)
             echo "input the nation name~!!"
           esac
-=======
-   kr) echo "seoul";;
-   us) echo "washington";;
-
-esac
