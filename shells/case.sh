@@ -1,6 +1,7 @@
 #!/bin/bash
 
 case "$1" in
+
         kr)
                   echo "seoul"
                   ;;
@@ -16,3 +17,8 @@ case "$1" in
             *)
             echo "input the nation name~!!"
           esac
+=======
+   kr) echo "seoul";;
+   us) echo "washington";;
+
+esac
