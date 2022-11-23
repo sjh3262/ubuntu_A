@@ -1,0 +1,4 @@
+1 use test
+ 2
+ 3 db things.find():count()
+ 4 db.things.find()
